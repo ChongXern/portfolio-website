@@ -1,8 +1,8 @@
 :root {
     /* colours */
     --color-text: white;
-    --color-primary: DodgerBlue;
-    --color-secondary: blue;
+    --color-primary: cornflowerblue;
+    --color-secondary: rgb(57, 57, 177);
     --color-dark: #091f3d;
     --color-bg: #031329;
 

@@ -10,7 +10,7 @@ export const NavBar = () => {
         <div className={styles.menu}>
             <img 
                 className={styles.menuBtn} 
-                src={isMenuOpen ? getImageUrl("navbar/closeIcon.png") : getImageUrl("navbar/menuIcon.png")}
+                src={isMenuOpen ? getImageUrl('profile/closeIcon.png') : getImageUrl("navbar/menuIcon.png")}
                 alt="Menu Icon" 
                 onClick={() => setMenuOpen(!isMenuOpen)}
             />
