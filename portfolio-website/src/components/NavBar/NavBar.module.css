@@ -37,6 +37,10 @@
     background: transparent;
 }
 
+.menuItems li {
+    background: transparent;
+}
+
 .menuBtn {
     display: none;
 }

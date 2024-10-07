@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='styles.App'>
       <NavBar />
-      {/*<Profile />*/}
+      <Profile />
       <About />
     </div>
   )
