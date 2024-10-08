@@ -75,35 +75,36 @@
     );
     border-radius: 10px;
     padding: 24px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .historyItemHeader {
     flex-direction: row; /* font sizes too large? */
     padding-bottom: 10px;
+    width: 100%; /* full width */
 }
 
 .historyItemHeader h3 {
     text-align: left;
+    flex: 1; /* take up all available space */
 }
 
 .historyItemHeader h5 {
     text-align: right;
 }
 
-.historyItemContent{
+.historyItemContent {
     display: flex;
     align-items: center;
     flex-direction: row;
-    flex: 0 0 90%;
     justify-content: space-between;
     width: 100%;
 }
 
 .historyAvatar {
-    width: 100px;
     flex: 0 0 30%;
-    margin-right: 10%;
+    max-width: 100px; 
+    margin-right: 10px; 
 }
 
 .historyAvatar img {
@@ -113,12 +114,12 @@
 }
 
 .historyItemDesc {
-    flex: 0 0 60%;
-    width: 300px;
+    flex: 1; /* take up remaining space */
     list-style-position: inside;
     list-style-type: disc;
     text-decoration: none;
     font: var(--font-judson);
+    padding-left: 10px;
 }
 
 /* fun hover stuffs */
@@ -154,3 +155,25 @@
     z-index: -1;
 }
 
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 3em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .skills {
+        width: 120%;
+        justify-content: center;
+    }
+}
