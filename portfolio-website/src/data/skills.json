@@ -1,0 +1,30 @@
+[
+    {
+      "title": "C++",
+      "imgSrc": "skills/cppIcon.png"
+    },
+    {
+      "title": "Java",
+      "imgSrc": "skills/javaIcon.png"
+    },
+    {
+      "title": "Python",
+      "imgSrc": "skills/pythonIcon.png"
+    },
+    {
+      "title": "HTML",
+      "imgSrc": "skills/htmlIcon.png"
+    },
+    {
+      "title": "CSS",
+      "imgSrc": "skills/cssIcon.png"
+    },
+    {
+      "title": "MySQL",
+      "imgSrc": "skills/mysqlIcon.png"
+    },
+    {
+      "title": "oracleIcon",
+      "imgSrc": "skills/oracleIcon.png"
+    }
+  ]

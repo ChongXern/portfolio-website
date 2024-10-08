@@ -1,0 +1,24 @@
+[
+    {
+      "role": "Quality Assurance Intern",
+      "organisation": "Integro Technologies",
+      "startDate": "May 2024",
+      "endDate": "Jul 2024",
+      "experiences": [
+        "Worked on code debugging, SQL querying and QA testing for company's web-based banking application solution.", 
+        "Communicated findings effectively with cross-functional teams, and presented detailed documentation and recommendations to enhance software quality."
+      ],
+      "imgSrc": "history/integro.png"
+    },
+    {
+      "role": "NUSSU IT Committee Member",
+      "organisation": "NUSSU commIT",
+      "startDate": "Sep 2023",
+      "endDate": "May 2024",
+      "experiences": [
+        "Publicity and Design committee member of NUSSU commIT.", 
+        "Assisted in organising HTML and Python coding workshops."
+      ],
+      "imgSrc": "history/nussu_commit.png"
+    }
+  ]

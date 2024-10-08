@@ -1,0 +1,127 @@
+@import "../../vars.css";
+
+.container{
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--color-text);
+    padding-bottom: 10px;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.skills {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap; /* if going outside the width, wrap to next row*/
+    gap: 37px;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.skillImgContainer {
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+
+.skillImg {
+    width: 75px;
+}
+
+.skillItem p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.history {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.historyItem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(
+        90deg,
+        #1a386f 0%, 
+        rgba(25,55,110, 0) 100%
+    );
+    border-radius: 10px;
+    padding: 24px;
+    justify-content: center;
+}
+
+.historyItemHeader {
+    flex-direction: row; /* font sizes too large? */
+    padding-bottom: 10px;
+}
+
+.historyItemHeader h3 {
+    text-align: left;
+}
+
+.historyItemHeader h5 {
+    text-align: right;
+}
+
+.historyItemContent{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 0 0 90%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.historyAvatar {
+    width: 100px;
+    flex: 0 0 30%;
+    margin-right: 10%;
+}
+
+.historyAvatar img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.historyItemDesc {
+    flex: 0 0 60%;
+    width: 300px;
+    list-style-position: inside;
+    list-style-type: disc;
+    text-decoration: none;
+    font: var(--font-judson);
+}
+
+/* fun hover stuffs */
+.skillItem:hover {
+    transform: scale(1.1);
+}
