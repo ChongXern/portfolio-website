@@ -125,3 +125,32 @@
 .skillItem:hover {
     transform: scale(1.1);
 }
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: 1500px; /*slightly outside page*/
+    left: 75vw;
+    border-radius: 760px;
+    background-color: rgba(25,55,109,0.7);
+    filter: blur(100px);
+    z-index: -1;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: 2000px; /*slightly outside page*/
+    left: -20vw;
+    border-radius: 760px;
+    background-color: rgba(25,55,109,0.7);
+    filter: blur(100px);
+    z-index: -1;
+}
+

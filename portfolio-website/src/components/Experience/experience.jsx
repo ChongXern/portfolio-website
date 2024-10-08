@@ -6,6 +6,8 @@ import styles from "./experience.module.css"
 
 export const Experience = () => {
     return <section id='experience' className={styles.container}>
+        <div className={styles.topBlur}></div>
+        <div className={styles.bottomBlur}></div>
         <h2 className={styles.title}> Experience </h2>
         <div className={styles.content}>
             <div className={styles.skills}>{
