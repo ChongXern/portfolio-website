@@ -20,11 +20,31 @@
       "imgSrc": "skills/cssIcon.png"
     },
     {
+      "title": "C#",
+      "imgSrc": "skills/csharpIcon.png"
+    },
+    {
       "title": "MySQL",
       "imgSrc": "skills/mysqlIcon.png"
     },
     {
-      "title": "oracleIcon",
+      "title": "Oracle",
       "imgSrc": "skills/oracleIcon.png"
+    },
+    {
+      "title": "BitBucket",
+      "imgSrc": "skills/bitbucketIcon.png"
+    }, 
+    {
+      "title": "Godot",
+      "imgSrc": "skills/godotIcon.png"
+    },
+    {
+      "title": "Verilog",
+      "imgSrc": "skills/verilogIcon.png"
+    },
+    {
+      "title": "Arduino",
+      "imgSrc": "skills/arduinoIcon.png"
     }
   ]
