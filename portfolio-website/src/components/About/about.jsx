@@ -2,39 +2,55 @@ import React from 'react';
 import { NavBar } from '../NavBar/NavBar';
 import { getImageUrl } from '../../utils';
 import styles from './about.module.css'
+import about from '../../data/about.json'
+import { useEffect, useRef, useState } from 'react';
+import { TypeAnimation } from 'react-type-animation';
 
 export const About = () => {
+    const [inView, setInView] = useState(false);
+    const ref = useRef(null);
+
+    const handleScroll = () => {
+        if (ref.current) {
+            const rect = ref.current.getBoundingClientRect();
+            if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+                setInView(true);
+                window.removeEventListener('scroll', handleScroll); // Remove listener after first trigger
+            }
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return <section className={styles.container} id='about'>
         <h2 className={styles.title}> ABOUT </h2>
         <div className={styles.content}>
-        <img src={getImageUrl('about/aboutImage.png')} alt='About me' className={styles.aboutImage}/>
-        <ul className={styles.aboutItems}>
-            <li className={styles.aboutItem}>
-            <img src={getImageUrl('about/softwareEngIcon.png')} alt='Digital Design icon' className={styles.skillImage}/>
-                <div className={styles.aboutItemText}>
-                    <h4> Software Engineering</h4>
-                    <p> I'm a software engineer with a strong foundation in Object-Oriented Programming and 
-                        can creatively utilise Data Structures for more efficient programs. </p>
-                </div>
-            </li> 
-            <li className={styles.aboutItem}>
-            <img src={getImageUrl('about/machineLearningIcon.png')} alt='Digital Design icon' className={styles.skillImage} />
-                <div className={styles.aboutItemText}>
-                    <h4> Machine Learning</h4>
-                    <p> I have created several machine learning applications and have successfully worked on 
-                        projects involving NLP, CV and image recognition to improve my understanding of 
-                        Machine Learning applications</p>
-                </div>
-            </li>
-            <li className={styles.aboutItem}>
-            <img src={getImageUrl('about/digitalDesignicon.png')} alt='Digital Design icon' className={styles.skillImage} />
-                <div className={styles.aboutItemText}>
-                    <h4> Digital Design</h4>
-                    <p> I have experience in creating efficient designs for applications such 
-                        as digital clocks and processors for FPGA and Arduino projects. </p>
-                </div>
-            </li>
-        </ul>
+            <img src={getImageUrl('about/aboutImage.png')} alt='About me' className={styles.aboutImage} />
+            <div>{
+                    about.map((aboutItem, id) => {
+                        return <ul key={id} className={styles.aboutItems}>
+                            <li className={styles.aboutItem}>
+                            <img src={getImageUrl(aboutItem.image)} alt={aboutItem.imageAlt} className={styles.skillImage} />
+                                <div className={styles.aboutItemText}>
+                                    <h4> {aboutItem.title} </h4>
+                                    <div ref={ref} className={styles.animatedText}> {
+                                        inView && <TypeAnimation sequence={[aboutItem.desc, 200]}
+                                            wrapper='span'
+                                            cursor='true'
+                                            speed={75}
+                                            repeat={0}/>
+                                    }</div>
+                                </div>
+                            </li>
+                        </ul>
+                    })
+                }
+            </div>
         </div>
     </section>
 }

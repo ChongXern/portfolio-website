@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Software Engineering",
+        "desc": "I'm a software engineer with a strong foundation in Object-Oriented Programming and can creatively utilise Data Structures for more efficient programs.",
+        "image": "about/softwareEngIcon.png",
+        "imageAlt": "Software Engineering icon"
+    },
+    {
+        "title": "Machine Learning",
+        "desc": "I have created several machine learning applications and have successfully worked on projects involving NLP, CV and image recognition to improve my understanding of Machine Learning applications",
+        "image": "about/machineLearningIcon.png",
+        "imageAlt": "Machine Learning icon"
+    },
+    {
+        "title": "Digital Design",
+        "desc": "I have experience in creating efficient designs for applications such as digital clocks and processors for FPGA and Arduino projects.",
+        "image": "about/digitalDesignIcon.png",
+        "imageAlt": "Digital Design icon"
+    }
+]

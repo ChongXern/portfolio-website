@@ -22,10 +22,10 @@
 }
 
 .title {
-    font-size: 60px;
+    font-family: var(--font-judson);
+    font-size: 40px;
     font-weight: 900;
     margin-bottom: 35px;
-    font-family: var(--font-judson);
     background: linear-gradient(
         90deg, 
         rgba(255,255,255,1) 80%,
@@ -36,8 +36,8 @@
 }
 
 .desc{ 
-    font-size: 30px;
-    font-family: var(--font-judson);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 52px;
     background: transparent;
 }
