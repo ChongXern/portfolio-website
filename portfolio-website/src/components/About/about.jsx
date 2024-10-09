@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavBar } from '../NavBar/NavBar';
 import { getImageUrl } from '../../utils';
 import styles from './about.module.css'
 import about from '../../data/about.json'
