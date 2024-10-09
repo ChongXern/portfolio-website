@@ -6,7 +6,7 @@ import { getImageUrl } from '../../utils';
 export const NavBar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false); // set false so it's closed by default
     return <nav className={styles.navBar}>
-        <a className={styles.title} href="/">Portfolio</a>
+        <a className={styles.title} href="/">Hu Chong Xern</a>
         <div className={styles.menu}>
             <img 
                 className={styles.menuBtn} 
