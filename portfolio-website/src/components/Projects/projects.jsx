@@ -4,7 +4,7 @@ import styles from './Projects.module.css';
 import projects from "../../data/projects.json"
 
 export const Projects =() => {
-    return <section className={styles.container}>
+    return <section id="projects" className={styles.container}>
         <h1 className={styles.title}> PROJECTS </h1>
             <ul className={styles.content}/*className={styles.projectItem}*/>{
                 projects.map((project, id) => {

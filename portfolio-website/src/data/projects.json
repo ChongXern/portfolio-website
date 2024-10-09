@@ -3,7 +3,7 @@
         "title": "FinTrack Financial Management CLI Application",
         "startDate": "Mar 2024",
         "endDate": "Apr 2024",
-        "image": "projects/screen.png",
+        "image": "projects/fintrackProject.png",
         "desc": "FinTrack is a desktop app designed for individuals who want to manage their finances using a Command Line Interface (CLI). FinTrack offers a convenient way for users to track their income, expenses, and budgets through typed commands. With FinTrack, users can easily add income and expense transactions, categorize them, set budgets, and generate reports to gain valuable insights into their financial activities.",
         "skills": ["Java", "Documentation", "JUnit Testing", "Data Structures", "Object-Oriented Programming"],
         "github": "https://github.com/ChongXern/tp"
@@ -12,7 +12,7 @@
         "title": "Orbital Independent Software Development Project",
         "startDate": "May 2023",
         "endDate": "Jul 2023",
-        "image": "projects/screen.png",
+        "image": "projects/gamedevProject.png",
         "desc": "Campus Crisis is a single-player 2D game based in real-life locations within NUS, whereby the characters consist of NUS students from various academic faculties, the key allies and the lion.",
         "skills": ["Game Development", "Godot", "Git", "User Testing", "Blender"],
         "github": "https://github.com/ChongXern/Orbital-2"
@@ -21,7 +21,7 @@
         "title": "FPGA Sorting Algorithm Visualiser",
         "startDate": "Jan 2024",
         "endDate": "Apr 2024",
-        "image": "projects/screen.png",
+        "image": "projects/fpgaProject.png",
         "desc": "A sorting algorithm visualiser that can also help the user learn and understand how different sorting algorithms may work.",
         "skills": ["FPGA Programming", "Verilog", "Digital Logic", "Digital Design"],
         "github": "https://github.com/hafizuddin-a/basys3-sorting-visualisations"

@@ -1,0 +1,86 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px;
+    gap: 30px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.leftSide img {
+    width: 200px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.3));
+}
+
+.text h2 {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.text p{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.contactsList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.contact a:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactsList {
+        align-items: center;
+    }
+
+    .contact a{
+        font-size: 20px;
+    }
+}
