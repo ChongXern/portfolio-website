@@ -38,9 +38,8 @@ export const About = () => {
                                 <div className={styles.aboutItemText}>
                                     <h4> {aboutItem.title} </h4>
                                     <div ref={ref} className={styles.animatedText}> {
-                                        inView && <TypeAnimation sequence={[aboutItem.desc, 200]}
+                                        inView && <TypeAnimation cursor={false} sequence={[aboutItem.desc, 200]}
                                             wrapper='span'
-                                            cursor='true'
                                             speed={75}
                                             repeat={0}/>
                                     }</div>

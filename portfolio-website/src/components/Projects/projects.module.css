@@ -10,8 +10,7 @@
     padding: 73px;
     margin-top: 129px;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10%;
 }
 
 .title {
@@ -32,13 +31,27 @@
 }
 
 .content {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%;
+}
+
+.masonryGrid {
+    display: flex;
+    width: auto;
+    margin-left: -30px; /* gutter size offset */
+    margin: 0 auto;
+}
+
+.masonryGridColumn{
+    background-clip: padding-box;
+}
+
+.projectsList{
+    margin: 10px
 }
 
 .projectBox {
@@ -47,14 +60,14 @@
         var(--color-dark) 80%,
         rgb(17, 56, 112) 120%
     );
-    flex-direction: column;
-    flex: 1 1 calc(30% - 20px);
-    width: 0 0 90%;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 10px;
-    height: fit-content;
+    height: fit-content; 
+    box-sizing: border-box;
 }
 
 .projectBox h1 {
