@@ -6,6 +6,7 @@ import projects from "../../data/projects.json"
 export const Projects =() => {
     return <section id="projects" className={styles.container}>
         <h1 className={styles.title}> PROJECTS </h1>
+            <div className={styles.projectItems}>
             <ul className={styles.content}/*className={styles.projectItem}*/>{
                 projects.map((project, id) => {
                     return <li key={id} className={styles.projectBox}>
@@ -21,5 +22,6 @@ export const Projects =() => {
                     </li> 
                 })
             }</ul>
+            </div>
     </section>
 }
