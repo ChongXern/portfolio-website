@@ -116,16 +116,18 @@
     }
 
     .title {
-        font-size: 3em;
+        font-size: 2em;
+        width: 100%;
         align-items: center;
     }
 
     .desc {
-        font-size: 2em;
+        font-size: 1.5em;
         align-items: center;
     }
 
     .contactBtn {
         align-items: center;
+        justify-content: center;
     }
 }

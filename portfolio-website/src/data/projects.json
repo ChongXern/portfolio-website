@@ -25,5 +25,23 @@
         "desc": "A sorting algorithm visualiser that can also help the user learn and understand how different sorting algorithms may work.",
         "skills": ["FPGA Programming", "Verilog", "Digital Logic", "Digital Design"],
         "github": "https://github.com/hafizuddin-a/basys3-sorting-visualisations"
+    },
+    {
+        "title": "Linux Prompt Shell Application",
+        "startDate": "Sep 2024",
+        "endDate": "Oct 2024",
+        "image": "projects/promptshellProject.png",
+        "desc": "Basic Linux shell that executes commands using standard I/O, while also being able to run commands in background.",
+        "skills": ["C", "Operating Systems", "Linux", "Computer Architecture"],
+        "github": "https://github.com/ChongXern/shell"
+    },
+    {
+        "title": "End-of-Sentence Detection in Audio using Machine Learning",
+        "startDate": "Oct 2024",
+        "endDate": "Dec 2024",
+        "image": "projects/ds340Project.png",
+        "desc": "Machine Learning model that detects end-of-sentences purely based on audio spectrograms using RandomForests, CNNs and LSTMs.",
+        "skills": ["Python", "Machine Learning", "Artificial Intelligence", "Data Engineering"],
+        "github": "https://github.com/ChongXern/DS340-Project"
     }
 ]
