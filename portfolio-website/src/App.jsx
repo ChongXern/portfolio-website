@@ -8,7 +8,7 @@ import { Contacts } from './components/Contacts/contacts.jsx'
 
 function App() {
   return (
-    <div className='styles.App'>
+    <div className={styles.App}>
       <NavBar />
       <Profile />
       <About />

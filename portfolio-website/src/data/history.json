@@ -5,8 +5,8 @@
       "startDate": "Jan 2024",
       "endDate": "Jun 2024",
       "experiences": [
-        "Created scalable, self-contained executable applications from data analysis pipelines, enabling easy and standardised deployment across multiple facility sites globally", 
-        "Developed a PowerBI dashboard with a synchronisation algorithm to identify and quantify energy-saving opportunities across APAC manufacturing sites",
+        "Created scalable, self-contained executable applications from data analysis pipelines, enabling easy and standardised deployment across multiple facility sites globally.", 
+        "Developed a PowerBI dashboard with a synchronisation algorithm to identify and quantify energy-saving opportunities across APAC manufacturing sites.",
         "Utilised NLP and unsupervised learning to organise project proposals, creating a reusable tool for data-driven decision-making."
       ],
       "imgSrc": "history/henkel.png"
