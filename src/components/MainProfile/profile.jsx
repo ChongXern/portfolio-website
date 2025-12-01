@@ -21,7 +21,7 @@ export const Profile = () => {
                     repeat={0}
                 />}
             </div>
-            <p className={styles.desc}> I'm a Year 3 Computer Engineering student 
+            <p className={styles.desc}> I'm a Year 4 Computer Engineering student 
                 from the National University of Singapore, and 
                 I have a strong foundation in Software Engineering 
                 and Machine Learning.
