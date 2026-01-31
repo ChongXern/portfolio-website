@@ -1,30 +1,30 @@
 [
     {
-        "title": "FinTrack Financial Management CLI Application",
-        "startDate": "Mar 2024",
-        "endDate": "Apr 2024",
-        "image": "projects/fintrackProject.png",
-        "desc": "FinTrack is a desktop app designed for individuals who want to manage their finances using a Command Line Interface (CLI). FinTrack offers a convenient way for users to track their income, expenses, and budgets through typed commands. With FinTrack, users can easily add income and expense transactions, categorize them, set budgets, and generate reports to gain valuable insights into their financial activities.",
-        "skills": ["Java", "Documentation", "JUnit Testing", "Data Structures", "Object-Oriented Programming"],
-        "github": "https://github.com/ChongXern/tp"
-    },
-    {
         "title": "Embedded Computer Vision Motion Tracking Robotic System",
         "startDate": "Sep 2025",
         "endDate": "Nov 2025",
         "image": "projects/uglle.png",
         "desc": "A follow-me helper robot that uses computer vision and body motion to follow user. Utilised AprilTag fiducial marker for user tracking and implemented binary classification, 8-value polynomial regression and CNNs for combined model used alongside ESP32-CAM.",
-        "skills": ["Internet of Things", "Machine Learning", "Robtics", "Computer Vision", "Digital Design"],
+        "skills": ["Internet of Things", "Machine Learning", "Robotics", "Computer Vision", "Digital Design"],
         "github": "https://github.com/worldoez/cs3237project"
     },
-    {   
-        "title": "Orbital Independent Software Development Project",
-        "startDate": "May 2023",
-        "endDate": "Jul 2023",
-        "image": "projects/gamedevProject.png",
-        "desc": "Campus Crisis is a single-player 2D game based in real-life locations within NUS, whereby the characters consist of NUS students from various academic faculties, the key allies and the lion.",
-        "skills": ["Game Development", "Godot", "Git", "User Testing", "Blender"],
-        "github": "https://github.com/ChongXern/Orbital-2"
+    {
+        "title": "IoT Smart Greenhouse Capstone Project",
+        "startDate": "Sep 2025",
+        "endDate": "Present",
+        "image": "projects/greenhouseOngoing.png",
+        "desc": "An ongoing Final Year Project that combines my Machine Learning skills, IoT specialisation and love for plants to construct a large-scale smart greenhouse, with the goal of minimising human interactions as much as possible.",
+        "skills": ["Machine Learning", "Internet of Things", "Espressif", "Computer Vision", "Data Science", "Networking"],
+        "github": null
+    },
+    {
+        "title": "End-of-Sentence Detection in Audio using Machine Learning",
+        "startDate": "Oct 2024",
+        "endDate": "Dec 2024",
+        "image": "projects/ds340Project.png",
+        "desc": "Machine Learning model that detects end-of-sentences purely based on audio spectrograms using RandomForests, CNNs and LSTMs.",
+        "skills": ["Python", "Machine Learning", "Artificial Intelligence", "Data Engineering"],
+        "github": "https://github.com/ChongXern/DS340-Project"
     },
     {
         "title": "FPGA Sorting Algorithm Visualiser",
@@ -36,6 +36,15 @@
         "github": "https://github.com/hafizuddin-a/basys3-sorting-visualisations"
     },
     {
+        "title": "FinTrack Financial Management CLI Application",
+        "startDate": "Mar 2024",
+        "endDate": "Apr 2024",
+        "image": "projects/fintrackProject.png",
+        "desc": "FinTrack is a desktop app designed for individuals who want to manage their finances using a Command Line Interface (CLI). FinTrack offers a convenient way for users to track their income, expenses, and budgets through typed commands. With FinTrack, users can easily add income and expense transactions, categorize them, set budgets, and generate reports to gain valuable insights into their financial activities.",
+        "skills": ["Java", "Documentation", "JUnit Testing", "Data Structures", "Object-Oriented Programming"],
+        "github": "https://github.com/ChongXern/tp"
+    },
+    {
         "title": "Linux Prompt Shell Application",
         "startDate": "Sep 2024",
         "endDate": "Oct 2024",
@@ -44,13 +53,13 @@
         "skills": ["C", "Operating Systems", "Linux", "Computer Architecture"],
         "github": "https://github.com/ChongXern/shell"
     },
-    {
-        "title": "End-of-Sentence Detection in Audio using Machine Learning",
-        "startDate": "Oct 2024",
-        "endDate": "Dec 2024",
-        "image": "projects/ds340Project.png",
-        "desc": "Machine Learning model that detects end-of-sentences purely based on audio spectrograms using RandomForests, CNNs and LSTMs.",
-        "skills": ["Python", "Machine Learning", "Artificial Intelligence", "Data Engineering"],
-        "github": "https://github.com/ChongXern/DS340-Project"
+    {   
+        "title": "Orbital Independent Software Development Project",
+        "startDate": "May 2023",
+        "endDate": "Jul 2023",
+        "image": "projects/gamedevProject.png",
+        "desc": "Campus Crisis is a single-player 2D game based in real-life locations within NUS, whereby the characters consist of NUS students from various academic faculties, the key allies and the lion.",
+        "skills": ["Game Development", "Godot", "Git", "User Testing", "Blender"],
+        "github": "https://github.com/ChongXern/Orbital-2"
     }
 ]

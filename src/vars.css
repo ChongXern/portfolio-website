@@ -1,10 +1,10 @@
 :root {
     /* colours */
     --color-text: white;
-    --color-primary: cornflowerblue;
-    --color-secondary: rgb(57, 57, 177);
-    --color-dark: #091f3d;
-    --color-bg: #031329;
+    --color-primary: rgb(42, 122, 46);
+    --color-secondary: rgb(0, 101, 10);
+    --color-dark: #0f3d09;
+    --color-bg: #032903;
 
     /* fonts variables */
     --font-judson: "Judson";

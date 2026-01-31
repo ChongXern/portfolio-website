@@ -91,7 +91,7 @@
     top: -120px; /*slightly outside page*/
     left: -10vw;
     border-radius: 760px;
-    background-color: rgba(25,55,109,0.7);
+    background-color: rgba(23, 92, 59, 0.7);
     filter: blur(100px);
     z-index: 0;
 }
@@ -105,7 +105,7 @@
     top: 246px; /*slightly outside page*/
     right: -25vw;
     border-radius: 760px;
-    background-color: rgba(25,55,109,0.9);
+    background-color: rgba(8, 71, 56, 0.9);
     filter: blur(100px);
     z-index: 0;
 }

@@ -23,7 +23,8 @@ export const Projects =() => {
                                     return <li key={id2} className={styles.projectSkill}> {skill} </li>
                                 })
                             }</ul>
-                            <a href={project.github} className={styles.githubButton}> Source </a>
+                            <a href={project.github} className={styles.githubButton}> {project.github ? "Source" : "Ongoing"} </a>
+                            
                         </li> 
                     </ul>
                 })
