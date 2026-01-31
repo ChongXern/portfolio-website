@@ -12,9 +12,9 @@
         "imageAlt": "Machine Learning icon"
     },
     {
-        "title": "Digital Design",
-        "desc": "I have experience in creating efficient designs for applications such as digital clocks and processors for FPGA and Arduino projects.",
+        "title": "Internet of Things",
+        "desc": "As someone specialising in IoT, I enjoy building systems end-to-end with a user-centric focus, touching upon a wide array of skills including machine learning, data science, electrical engineering and more.",
         "image": "about/digitalDesignIcon.png",
-        "imageAlt": "Digital Design icon"
+        "imageAlt": "IoT icon"
     }
 ]
