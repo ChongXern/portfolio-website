@@ -44,7 +44,9 @@
     background: transparent;
 }
 
-.contactBtn {
+.customBtn {
+    border: none;
+    cursor: pointer;
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
@@ -55,9 +57,18 @@
     box-shadow: 0 0 4px rgba(0,0,0, 0.25);
 }
 
-.contactBtn:hover {
+.customBtn:hover {
     background-color: rgb(135, 172, 240);
     color: black;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* padding: 10px; */
+    flex-direction: row;
 }
 
 .profileImg{
@@ -126,7 +137,7 @@
         align-items: center;
     }
 
-    .contactBtn {
+    .customBtn {
         align-items: center;
         justify-content: center;
     }

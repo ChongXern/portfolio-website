@@ -3,7 +3,13 @@ import { getImageUrl } from '../../utils'
 import { TypeAnimation } from "react-type-animation";
 import styles from './profile.module.css'
 
+// import myResume from '../../../public/resume.pdf'
+
 export const Profile = () => {
+    const handlePdfView= () => {
+        // const pdfUrl = `${process.env.PUBLIC_URL}/resume.pdf`;
+        window.open('/portfolio-website/resume.pdf', '_blank', 'noopener,noreferrer');
+    }
     return <section className={styles.container}>
         <img src={getImageUrl('profile/profile.png')} alt='profile' className={styles.profileImg}/> 
         <div className={styles.content}>
@@ -26,7 +32,13 @@ export const Profile = () => {
                 I have a strong foundation in Software Engineering 
                 and Machine Learning.
             </p>
-            <a href='mailto: hu.chongxern@u.nus.edu' className={styles.contactBtn}> Email Me </a>
+           
+            <div className={styles.buttonContainer}>
+                 <a href='mailto: hu.chongxern@u.nus.edu' className={styles.customBtn}> Email Me </a>
+                <a className={styles.customBtn} onClick={handlePdfView}> 
+                    Resume
+                </a>
+            </div>
         </div>
         <div className={styles.topBlur}/>
         <div className={styles.bottomBlur}/>
