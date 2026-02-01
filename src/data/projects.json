@@ -5,7 +5,7 @@
         "endDate": "Nov 2025",
         "image": "projects/uglle.png",
         "desc": "A follow-me helper robot that uses computer vision and body motion to follow user. Utilised AprilTag fiducial marker for user tracking and implemented binary classification, 8-value polynomial regression and CNNs for combined model used alongside ESP32-CAM.",
-        "skills": ["Internet of Things", "Machine Learning", "Robotics", "Computer Vision", "Digital Design"],
+        "skills": ["Internet of Things", "Machine Learning", "Robotics", "Networking","Computer Vision", "Digital Design"],
         "github": "https://github.com/worldoez/cs3237project"
     },
     {

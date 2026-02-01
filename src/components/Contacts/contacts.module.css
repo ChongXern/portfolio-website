@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+    cursor: default;
     color: var(--color-text);
     margin-top: 120px;
     background-color: var(--color-secondary);
