@@ -76,8 +76,24 @@
     );
     border-radius: 10px;
     padding: 24px;
-    justify-content: flex-start;
+
+    --skx: -2deg;
+    /* --sky: 0.03deg; */
+
+    transition: transform 0.15s ease-out;
+    will-change: transform;
+
+    transform:
+      translate(var(--tx, 0px), var(--ty, 0px))
+      skew(var(--skx, 0deg), var(--sky, 0deg));
 }
+
+/* .historyItem:hover {
+    transform:
+        translateX(-6px)
+        skewX(-3deg)
+        skewY(1deg);
+} */
 
 .historyItemHeader {
     flex-direction: row; /* font sizes too large? */
