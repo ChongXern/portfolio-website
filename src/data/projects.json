@@ -5,7 +5,7 @@
         "endDate": "Nov 2025",
         "image": "projects/uglle.png",
         "desc": "A follow-me helper robot that uses computer vision and body motion to follow user. Utilised AprilTag fiducial marker for user tracking and implemented binary classification, 8-value polynomial regression and CNNs for combined model used alongside ESP32-CAM.",
-        "skills": ["Internet of Things", "Machine Learning", "Robotics", "Networking","Computer Vision", "Digital Design"],
+        "skills": ["Internet of Things", "Machine Learning", "Robotics", "Networking","Computer Vision", "Feature Engineering", "Digital Design"],
         "github": "https://github.com/worldoez/cs3237project"
     },
     {
@@ -14,8 +14,17 @@
         "endDate": "Present",
         "image": "projects/greenhouseOngoing.png",
         "desc": "An ongoing Final Year Project that combines my Machine Learning skills, IoT specialisation and love for plants to construct a large-scale smart greenhouse, with the goal of minimising human interactions as much as possible.",
-        "skills": ["Machine Learning", "Internet of Things", "Espressif", "Computer Vision", "Data Science", "Networking"],
+        "skills": ["Machine Learning", "Internet of Things", "Espressif", "Computer Vision", "Data Science", "Networking", "Model Evaluation", "Research-Driven Iteration"],
         "github": null
+    },
+    {
+        "title": "Weather-aware Carpark Availability Prediction System",
+        "startDate": "Oct 2025",
+        "endDate": "Nov 2025",
+        "image": "projects/hdbCarparkPrediction.png",
+        "desc": "Developed a machine learning pipeline to predict car park availability using weather data, spatial proximity, and lagged historical features. Extensive benchmarking across regression, Random Forest, MLP and LSTM models showed that tree-based methods best captured non-linear parking behaviour.",
+        "skills": ["Machine Learning", "Data Science", "Feature Engineering", "Model Evaluation", "Python", "Deep Learning", "Research-Driven Iteration"],
+        "github": "https://github.com/ChongXern/EE4211-Project"
     },
     {
         "title": "End-of-Sentence Detection in Audio using Machine Learning",
@@ -23,17 +32,8 @@
         "endDate": "Dec 2024",
         "image": "projects/ds340Project.png",
         "desc": "Machine Learning model that detects end-of-sentences purely based on audio spectrograms using RandomForests, CNNs and LSTMs.",
-        "skills": ["Python", "Machine Learning", "Artificial Intelligence", "Data Engineering"],
+        "skills": ["Python", "Machine Learning", "Artificial Intelligence", "Data Science", "Feature Engineering", "Audio Detection", "Object-Oriented Programming"],
         "github": "https://github.com/ChongXern/DS340-Project"
-    },
-    {
-        "title": "FPGA Sorting Algorithm Visualiser",
-        "startDate": "Jan 2024",
-        "endDate": "Apr 2024",
-        "image": "projects/fpgaProject.png",
-        "desc": "A sorting algorithm visualiser that can also help the user learn and understand how different sorting algorithms may work.",
-        "skills": ["FPGA Programming", "Verilog", "Digital Logic", "Digital Design"],
-        "github": "https://github.com/hafizuddin-a/basys3-sorting-visualisations"
     },
     {
         "title": "FinTrack Financial Management CLI Application",
@@ -52,6 +52,15 @@
         "desc": "Basic Linux shell that executes commands using standard I/O, while also being able to run commands in background.",
         "skills": ["C", "Operating Systems", "Linux", "Computer Architecture"],
         "github": "https://github.com/ChongXern/shell"
+    },
+    {
+        "title": "FPGA Sorting Algorithm Visualiser",
+        "startDate": "Jan 2024",
+        "endDate": "Apr 2024",
+        "image": "projects/fpgaProject.png",
+        "desc": "A sorting algorithm visualiser that can also help the user learn and understand how different sorting algorithms may work.",
+        "skills": ["FPGA Programming", "Verilog", "Digital Logic", "Digital Design"],
+        "github": "https://github.com/hafizuddin-a/basys3-sorting-visualisations"
     },
     {   
         "title": "Orbital Independent Software Development Project",
