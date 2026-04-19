@@ -33,5 +33,17 @@
         "Assisted in organising HTML and Python coding workshops."
       ],
       "imgSrc": "history/nussu_commit.png"
+    }, 
+    {
+      "role": "Lab Assistant and Teaching Assistant",
+      "organisation": "Physics & Chemistry Learning Lab",
+      "startDate": "Nov 2021",
+      "endDate": "Jun 2022",
+      "experiences": [
+        "Educated and guided secondary school students in Physics and Chemistry experiments and theory lessons over seven months.", 
+        "Prepared laboratory equipment through careful planning and procurement of chemicals and apparatus",
+        "Published several topical past year question papers for Physics, Chemistry, Biology and Mathematics for students to improve their studies."
+      ],
+      "imgSrc": "history/phys_chem_lab.png"
     }
   ]
