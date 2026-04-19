@@ -12,9 +12,9 @@
         "title": "IoT Smart Greenhouse Capstone Project",
         "startDate": "Sep 2025",
         "endDate": "Present",
-        "image": "projects/greenhouseOngoing.png",
-        "desc": "An ongoing Final Year Project that combines my Machine Learning skills, IoT specialisation and love for plants to construct a large-scale smart greenhouse, with the goal of minimising human interactions as much as possible.",
-        "skills": ["Machine Learning", "Internet of Things", "Espressif", "Computer Vision", "Data Science", "Networking", "Model Evaluation", "Research-Driven Iteration"],
+        "image": "projects/greenhouse.png",
+        "desc": "Final Year Project building an end-to-end IoT greenhouse system integrating sensor networks, computer vision and machine learning to enable remote monitoring and automated plant health analysis. Designed and deployed a hybrid CV/ML pipeline with real-time data flow from image capture to inference and visualisation.",
+        "skills": ["Computer Vision", "Machine Learning", "IoT Systems", "ESP32", "Data Pipelines", "OpenCV", "PyTorch", "System Integration"],
         "github": null
     },
     {
@@ -22,7 +22,7 @@
         "startDate": "Oct 2025",
         "endDate": "Nov 2025",
         "image": "projects/hdbCarparkPrediction.png",
-        "desc": "Developed a machine learning pipeline to predict car park availability using weather data, spatial proximity, and lagged historical features. Extensive benchmarking across regression, Random Forest, MLP and LSTM models showed that tree-based methods best captured non-linear parking behaviour.",
+        "desc": "Developed a machine learning pipeline to predict car park availability using weather data, spatial proximity and lagged historical features. Extensive benchmarking across regression, Random Forest, MLP and LSTM models showed that tree-based methods best captured non-linear parking behaviour.",
         "skills": ["Machine Learning", "Data Science", "Feature Engineering", "Model Evaluation", "Python", "Deep Learning", "Research-Driven Iteration"],
         "github": "https://github.com/ChongXern/EE4211-Project"
     },
@@ -40,7 +40,7 @@
         "startDate": "Mar 2024",
         "endDate": "Apr 2024",
         "image": "projects/fintrackProject.png",
-        "desc": "FinTrack is a desktop app designed for individuals who want to manage their finances using a Command Line Interface (CLI). FinTrack offers a convenient way for users to track their income, expenses, and budgets through typed commands. With FinTrack, users can easily add income and expense transactions, categorize them, set budgets, and generate reports to gain valuable insights into their financial activities.",
+        "desc": "FinTrack is a desktop app designed for individuals who want to manage their finances using a Command Line Interface (CLI). FinTrack offers a convenient way for users to track their income, expenses and budgets through typed commands. With FinTrack, users can easily add income and expense transactions, categorize them, set budgets and generate reports to gain valuable insights into their financial activities.",
         "skills": ["Java", "Documentation", "JUnit Testing", "Data Structures", "Object-Oriented Programming"],
         "github": "https://github.com/ChongXern/tp"
     },

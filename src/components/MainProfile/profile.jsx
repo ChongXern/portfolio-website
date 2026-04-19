@@ -27,10 +27,9 @@ export const Profile = () => {
                     repeat={0}
                 />}
             </div>
-            <p className={styles.desc}> I'm a Year 4 Computer Engineering student 
-                from the National University of Singapore, and 
-                I have a strong foundation in Software Engineering 
-                and Machine Learning.
+            <p className={styles.desc}> 
+                I'm a final-year Computer Engineering undergraduate at NUS focused on data and systems engineering. 
+                I work on building real-world pipelines and useable tools from ambiguous problem settings.
             </p>
            
             <div className={styles.buttonContainer}>
