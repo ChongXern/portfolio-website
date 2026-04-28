@@ -15,7 +15,7 @@
         "image": "projects/greenhouse.png",
         "desc": "Final Year Project building an end-to-end IoT greenhouse system integrating sensor networks, computer vision and machine learning to enable remote monitoring and automated plant health analysis. Designed and deployed a hybrid CV/ML pipeline with real-time data flow from image capture to inference and visualisation.",
         "skills": ["Computer Vision", "Machine Learning", "IoT Systems", "ESP32", "Data Pipelines", "OpenCV", "PyTorch", "System Integration"],
-        "github": null
+        "github": "https://github.com/soulblast/PH_GREENHOUSE_FYP"
     },
     {
         "title": "Weather-aware Carpark Availability Prediction System",
